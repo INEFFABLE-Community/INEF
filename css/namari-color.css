@@ -125,8 +125,10 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 #banner {
     background: url("../images/white_logo_spread0.png") no-repeat center center;
-    background-size: 100% 120%;
+    background-size: 100% 100%;
+    height: 100vh; /* This sets the banner height to fill the entire viewport height */
 }
+
 
 
 /*------------------------------------------------------------------------------------------*/
