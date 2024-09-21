@@ -123,10 +123,14 @@ a:hover, #header.nav-solid nav a:hover {
 
 
 /* Banner Background and Text Colors */
+
 #banner {
     background: url("https://media.discordapp.net/attachments/1283920202706452511/1287186342803013745/image_bn.png?ex=66f0a132&is=66ef4fb2&hm=57190ef9fbd0201556a977c30e76432e25e63c70b8ba2589361aa6772bb37f19&=&format=webp&quality=lossless&width=1090&height=701") no-repeat center center;
-    background-size: 100% 100%;
-  
+    background-size: contain; /* Adjust 'contain' or 'cover' depending on scaling needs */
+    height: 100vh; /* This makes the banner fill the entire viewport height */
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content */
 }
 
 
