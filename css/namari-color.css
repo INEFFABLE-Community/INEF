@@ -136,7 +136,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     #banner {
-        background: url("https://media.discordapp.net/attachments/1283920202706452511/1287186342803013745/image_bn.png?ex=66f0a132&is=66ef4fb2&hm=57190ef9fbd0201556a977c30e76432e25e63c70b8ba2589361aa6772bb37f19&=&format=webp&quality=lossless&width=1090&height=701") no-repeat center center;
+        background: url("https://media.discordapp.net/attachments/1283920202706452511/1287185936001794048/image.png?ex=66f0a0d1&is=66ef4f51&hm=25d5100f435d413ce5c5da6d16e78783877c565072a8ed81cccd59aa076e9d10&=&format=webp&quality=lossless&width=675&height=621") no-repeat center center;
         background-size: 80%; /* Adjust to scale down the image */
         height: auto; /* Allow the height to adjust based on content */
         padding: 20px; /* Adds some spacing around the content */
