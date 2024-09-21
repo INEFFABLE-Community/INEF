@@ -124,7 +124,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Banner Background and Text Colors */
 #banner {
-    background: url("https://media.discordapp.net/attachments/1283920202706452511/1287183328386088970/server_banner_jpgtyyikgyiy.png?ex=66f09e64&is=66ef4ce4&hm=60aa25cca81370db46314712fffbc4ac0dc07e577f962d9157aa38998f26f966&=&format=webp&quality=lossless&width=1200&height=675") no-repeat center center;
+    background: url("https://media.discordapp.net/attachments/1283920202706452511/1287186342803013745/image_bn.png?ex=66f0a132&is=66ef4fb2&hm=57190ef9fbd0201556a977c30e76432e25e63c70b8ba2589361aa6772bb37f19&=&format=webp&quality=lossless&width=1090&height=701") no-repeat center center;
     background-size: 100% 100%;
      height: 100vh;/* Set your desired height */
 }
