@@ -119,7 +119,7 @@
         <!-- Add the logo here -->
             <img src="https://media.discordapp.net/attachments/1191776578150080583/1209517166307713054/Untitled_design_6.png?ex=66f22d64&is=66f0dbe4&hm=189b412f1e5def81e3f1fd6b172a76f324fbfa382a9ef7378b71541a03f2d91e&format=webp&quality=lossless&width=314&height=314&" alt="logo" class="logo-mobile" />
             <style>
-                    /* Hide the logo by default */
+                                       /* Hide the logo by default */
                     .logo-mobile {
                         display: none;
                     }
@@ -128,15 +128,18 @@
                     @media only screen and (max-width: 768px) {
                         .logo-mobile {
                             display: block; /* Show the logo on mobile view */
-                            margin-top: 20px; /* Optional spacing */
+                            margin: 20px auto 0 auto; /* Centers the logo horizontally and adds spacing */
                             width: 100px; /* Adjust size of the logo as needed */
+                            text-align: center; /* Center the logo container */
                         }
                     
                         .join-now-button {
                             display: block; /* Keeps the "JOIN NOW" button above the logo */
                             margin-bottom: 10px; /* Adds space between the button and the logo */
+                            text-align: center; /* Center the button too */
                         }
                     }
+
 
             </style>
     </header>
